@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background: #000;
+}
+.box {
+  height: 200px;
+  width: 200px;
+
+  /* background: wheat; */
+  padding: 20px;
+
+  margin: 70px;
+  border-radius: 10%;
+  /* background: url("https://i.pinimg.com/474x/8f/b0/ac/8fb0acda4897a3eaefcf02fb4952472b.jpg"); */
+  object-fit: cover;
+  object-position: center;
+}
+.box img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20%;
+}
+.box2 {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  background: rgb(255, 166, 0);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
